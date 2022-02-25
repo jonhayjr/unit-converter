@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    width: 75%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.conversion-header {
+    background-image: linear-gradient(
+    45deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(289deg 100% 21%) 21%,
+    hsl(315deg 100% 27%) 30%,
+    hsl(329deg 100% 36%) 39%,
+    hsl(337deg 100% 43%) 46%,
+    hsl(357deg 91% 59%) 54%,
+    hsl(17deg 100% 59%) 61%,
+    hsl(34deg 100% 53%) 69%,
+    hsl(45deg 100% 50%) 79%,
+    hsl(55deg 100% 50%) 100%
+    );
+    color: white;
+    padding: 2em 0;
+}
+
+.conversion-header__heading {
+    font-size: 15px;
+}
+
+.conversion-header__paragraph {
+    margin-top: 0.25em;
+    font-size: 60px;
+}
+
+.conversion-div {
+    margin-top: 0;
+    background-color: white;
+    color: black;
+}
