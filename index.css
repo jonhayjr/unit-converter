@@ -95,4 +95,5 @@ main {
 
 .conversion-display__paragraph {
     margin-top: 1em;
+    opacity: 0.75;
 }
