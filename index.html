@@ -7,20 +7,21 @@
             <div class="container">
                 <section class="conversion-header">
                     <h2 class="conversion-header__heading">Metric/Imperial unit conversion</h2>
-                    <p id="conversion-amount" class="conversion-header__paragraph">0</p>
+                    <input id="conversion-amount" class="conversion-header__input" value=0 />
+                    <button class="btn" id="conversion-update-btn">Update Value</button>
                 </section>
-                <section class="conversion-display">
-                    <div class="conversion-display-length">
-                        <h2 class="conversion-display-length__heading">Length (Meter/Feet)</h2>
-                        <p id="length" class="conversion-display-length__paragraph"></p>
+                <section class="conversion-display-cont">
+                    <div class="conversion-display">
+                        <p class="conversion-display__heading">Length (Meter/Feet)</p>
+                        <p id="length" class="conversion-display__paragraph">0 meters = 0.00 feet | 0 feet = 0.000 meters</p>
                     </div>
-                    <div class="conversion-display-volume">
-                        <h2 class="conversion-display-volume__heading">Volume (Liters/Gallons)</h2>
-                        <p id="volume" class="conversion-display-volume__paragraph"></p>
+                    <div class="conversion-display">
+                        <p class="conversion-display__heading">Volume (Liters/Gallons)</p>
+                        <p id="volume" class="conversion-display__paragraph">0 liters = 0.00 gallons | 0 gallons = 0.000 liters</p>
                     </div>
-                    <div class="conversion-display-mass">
-                        <h2 class="conversion-display-mass__heading">Mass (Kilograms/Pounds)</h2>
-                        <p id="mass" class="conversion-display-mass__paragraph"></p>
+                    <div class="conversion-display">
+                        <p class="conversion-display__heading">Mass (Kilograms/Pounds)</p>
+                        <p id="mass" class="conversion-display__paragraph">0 kilos = 0.00 pounds | 0 pounds = 0.000 kilos</p>
                     </div>
                 </section>
             </div>

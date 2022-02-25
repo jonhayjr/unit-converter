@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +8,16 @@
 
 body {
     background-color: #000;
+    font-family: 'Roboto', sans-serif;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 .container {
     text-align: center;
     width: 75%;
@@ -37,15 +47,52 @@ body {
     font-size: 22px;
 }
 
-.conversion-header__paragraph {
-    margin-top: 0.25em;
+.conversion-header__input {
+    margin: 0.25em auto 0;
     font-size: 98px;
+    width: 50%;
+    outline: none;
+    border: none;
+    text-align: center;
 }
 
-.conversion-display {
-    margin-top: 0;
+.btn {
+    display: block;
+    outline: none; 
+    border: 2px solid white;
+    margin: 2em auto 0;w
+    width: 25%;
+    padding: 0.75em;
+    background-color: hsl(357deg 91% 59%);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: hsl(357deg 91% 59%);
+    border-color: hsl(357deg 91% 59%);
+    background-color: white;
+}
+
+.conversion-display-cont {
     background-color: white;
     color: black;
-    padding: 1em;
+    padding: 2em;
     font-size: 14px;
+    cursor: pointer;
+}
+
+.conversion-display:not(.conversion-display:last-child) {
+    margin-bottom: 3em;
+}
+
+.conversion-display__heading {
+    font-weight: bold;
+}
+
+.conversion-display__paragraph {
+    margin-top: 1em;
 }
