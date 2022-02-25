@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #000;
+}
+
 .container {
     text-align: center;
     width: 75%;
-    max-width: 400px;
+    max-width: 550px;
     margin: 0 auto;
 }
 
@@ -30,16 +34,18 @@
 }
 
 .conversion-header__heading {
-    font-size: 15px;
+    font-size: 22px;
 }
 
 .conversion-header__paragraph {
     margin-top: 0.25em;
-    font-size: 60px;
+    font-size: 98px;
 }
 
-.conversion-div {
+.conversion-display {
     margin-top: 0;
     background-color: white;
     color: black;
+    padding: 1em;
+    font-size: 14px;
 }
